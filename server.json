@@ -9,20 +9,28 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
-      "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
-    },
-    {
       "id": 3,
-      "name": "A la Camarón",
+      "name": "A la Camarónes",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
       "price": "25.90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://www.npmjs.com/package/@unform/core",
+      "name": "Alguma coisa",
+      "price": "20.00",
+      "description": "Algo bem gostoso",
+      "available": true,
+      "id": 4
+    },
+    {
+      "image": "http://4.bp.blogspot.com/-Tu_BFweM2jw/UZY9JKNptvI/AAAAAAAAD4o/sIa8SGlAwzk/s1600/CarneSeca1.jpg",
+      "name": "Carne de jabá",
+      "price": "50",
+      "description": "Jabazinho bom...",
+      "available": true,
+      "id": 5
     }
   ]
 }

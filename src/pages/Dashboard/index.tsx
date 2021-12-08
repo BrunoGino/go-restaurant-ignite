@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 
-import Header from '../../components/Header';
+import { Header } from '../../components/Header';
 import api from '../../services/api';
 import Food from '../../components/Food';
-import ModalAddFood from '../../components/ModalAddFood';
-import ModalEditFood from '../../components/ModalEditFood';
+import { ModalAddFood } from '../../components/ModalAddFood';
+import { ModalEditFood } from '../../components/ModalEditFood';
 import { FoodsContainer } from './styles';
 
 export function Dashboard(): JSX.Element {
   const [foods, setFoods] = useState<FoodData[]>([]);
-  const [editingFood, setEditingFood] = useState<FoodData>();
+  const [editingFood, setEditingFood] = useState<FoodData>({} as FoodData);
   const [modalOpen, setModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
 
